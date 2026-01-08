@@ -1,55 +1,72 @@
-# 🤖 Deep Learning Portfolio: Part A
-> A collection of high-performance neural networks for Medical, Visual, and Financial AI.
+# 🧬 Deep Learning & Medical AI Portfolio
+> **Developer:** vishva2410 | **Focus:** Computer Vision & Predictive Modeling
 
 <div align="center">
-  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNHJueXNid2Z6ZzRyeHoxZzRyeHoxZzRyeHoxZzRyeHoxZzRyeHoxJmVwPXYxX2ludGVybmFsX2dpZl9ieV9pZCZjdD1n/3o7TKSjPXYpLxT6R6E/giphy.gif" width="600" height="300" />
+  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExOHJueXNid2Z6ZzRyeHoxZzRyeHoxZzRyeHoxZzRyeHoxZzRyeHoxJmVwPXYxX2ludGVybmFsX2dpZl9ieV9pZCZjdD1n/3o7TKSjPXYpLxT6R6E/giphy.gif" width="800px" alt="AI Animation" />
+  
+  <p>
+    <img src="https://img.shields.io/github/stars/vishva2410/Deep-Learning-Projects-Part-A?style=for-the-badge&color=blue" />
+    <img src="https://img.shields.io/github/repo-size/vishva2410/Deep-Learning-Projects-Part-A?style=for-the-badge&color=green" />
+    <img src="https://img.shields.io/badge/Framework-TensorFlow-orange?style=for-the-badge&logo=tensorflow" />
+  </p>
 </div>
 
 ---
 
-## 🧭 Navigation Menu
-*Click a link to jump to a specific category.*
+## 🧭 Quick Navigation
+*Click to jump to a section*
 
-| 🏥 [Medical Imaging](#medical) | 👁️ [Computer Vision](#vision) | 💰 [Financial AI](#finance) | 🛠️ [Setup](#setup) |
-| :--- | :--- | :--- | :--- |
-
----
-
-<a name="medical"></a>
-## 🏥 Medical Imaging Projects
-Using Deep Learning to assist in clinical diagnosis.
-
-* **[Brain Tumor Complex Classification](./Brain_tumor_complex.ipynb)** - Multi-class classification of MRI scans.
-* **[Lung Cancer Prediction](./Lung_cancer_prediction.ipynb)** - CNN-based detection from CT images.
-* **[Pneumonia Detection (X-Ray)](./chest_xray_pemonuia.ipynb)** - Analyzing chest X-rays for infection.
-* **[Skin Cancer Analysis (HAM10000)](./skin_cancer_ham10000.ipynb)** - High-accuracy classification of skin lesions.
-
-
+- [🏥 Medical Imaging Suite](#-medical-imaging-suite)
+- [👁️ Computer Vision & OCR](#️-computer-vision--ocr)
+- [📊 Financial Analytics](#-financial-analytics)
+- [⚙️ Environment & Setup](#️-environment--setup)
+- [📈 Performance Metrics](#-performance-metrics)
 
 ---
 
-<a name="vision"></a>
-## 👁️ General Computer Vision
-Object detection and feature extraction.
-
-* **[Facial Expression Recognition](./expression_recognition.ipynb)** - Real-time emotion mapping from facial landmarks.
-* **[Food Classification](./food_classification_CNN.ipynb)** - CNN trained to recognize various cuisines.
-* **[Vehicle Classification](./vehicle_classifications.ipynb)** - Identifying different transport types for traffic monitoring.
-* **[MNIST & Digit Prediction](./mnist_CNN.ipynb)** - The "Hello World" of DL, optimized with 99%+ accuracy.
+## 🏥 Medical Imaging Suite
+*Leveraging CNNs for automated clinical diagnostics and anomaly detection.*
 
 
+
+### **Brain Tumor Detection**
+- **Complex Model:** `Brain_tumor_complex.ipynb` — Deep residual architecture for high-accuracy MRI classification.
+- **Simple Model:** `brain_cancer(classification_simple).ipynb` — Lightweight baseline for rapid screening.
+
+### **Lung & Respiratory Health**
+- **Lung Cancer:** `Lung_cancer_prediction.ipynb` — Early-stage nodule detection.
+- **Pneumonia:** `chest_xray_pemonuia.ipynb` — Feature extraction from X-Ray images to distinguish viral vs. bacterial infection.
+
+### **Dermatology AI**
+- **Skin Cancer (HAM10000):** `skin_cancer_ham10000.ipynb` — Multi-class classification of pigmented skin lesions using the world-standard research dataset.
 
 ---
 
-<a name="finance"></a>
-## 💰 Financial & Tabular AI
-* **[Financial Rating Predictor](./finacial_rating.ipynb)** - Neural networks applied to credit scoring and risk assessment data.
+## 👁️ Computer Vision & OCR
+*From facial emotions to handwritten digit recognition.*
+
+
+
+| Project | File Name | Tech Used |
+| :--- | :--- | :--- |
+| **Expression Recognition** | `expression_recognition.ipynb` | OpenCV + Real-time CNN |
+| **Food Classification** | `food_classification_CNN.ipynb` | Data Augmentation + Softmax |
+| **Vehicle Detection** | `vehicle_classifications.ipynb` | Feature Localization |
+| **MNIST/Digits** | `mnist_CNN.ipynb` | Standard MNIST Benchmark |
 
 ---
 
-<a name="setup"></a>
-## 🛠️ Quick Start & Usage
+## 📊 Financial Analytics
+*Applying Neural Networks to non-image data.*
 
-### 1. Requirements
-```bash
-pip install tensorflow opencv-python-headless matplotlib pandas scikit-learn
+- **Financial Rating Prediction:** `finacial_rating.ipynb`
+  - Utilizes Dense layers (MLP) to predict credit risk and financial standing based on historical tabular data.
+
+---
+
+## ⚙️ Environment & Setup
+To run these notebooks locally or in the cloud:
+
+1. **Clone the repo:**
+   ```bash
+   git clone [https://github.com/vishva2410/Deep-Learning-Projects-Part-A.git](https://github.com/vishva2410/Deep-Learning-Projects-Part-A.git)
