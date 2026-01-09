@@ -1,6 +1,6 @@
-
 <div align="center">
-  <img src="https://capsule-render.vercel.app/render?type=waving&color=gradient&height=220&section=header&text=Deep%20Learning%20Hub&fontSize=50&fontAlign=50&animation=fadeIn&fontAlignY=35&desc=Advanced%20Neural%20Architectures%20%26%20Research&descSize=20&descAlignY=60" width="100%" />
+  <h1>🚀 Deep Learning Project Hub</h1>
+  <p><b>Advanced Neural Architectures & Research</b></p>
 
   <br/>
 
