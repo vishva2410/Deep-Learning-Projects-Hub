@@ -36,7 +36,7 @@ This repository serves as a centralized hub for advanced deep learning implement
 
 ## 📂 Repository Structure
 
-```text
+
 Deep-Learning-Hub/
 ├── 🏥 Medical_Imaging/
 │   ├── Brain_tumor_complex.ipynb      # MRI Segmentation & Classification
@@ -50,8 +50,6 @@ Deep-Learning-Hub/
 └── README.md
 
 
-
-<a name="medical-sector"></a>
 
 🏥 Medical Imaging Research
 High-precision diagnostics using Convolutional Neural Networks (CNNs) and Transfer Learning.
