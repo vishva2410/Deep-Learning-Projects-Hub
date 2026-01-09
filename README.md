@@ -1,3 +1,4 @@
+
 <div align="center">
   <img src="https://capsule-render.vercel.app/render?type=waving&color=gradient&height=220&section=header&text=Deep%20Learning%20Hub&fontSize=50&fontAlign=50&animation=fadeIn&fontAlignY=35&desc=Advanced%20Neural%20Architectures%20%26%20Research&descSize=20&descAlignY=60" width="100%" />
 
@@ -36,7 +37,7 @@ This repository serves as a centralized hub for advanced deep learning implement
 
 ## 📂 Repository Structure
 
-
+```text
 Deep-Learning-Hub/
 ├── 🏥 Medical_Imaging/
 │   ├── Brain_tumor_complex.ipynb      # MRI Segmentation & Classification
@@ -49,98 +50,116 @@ Deep-Learning-Hub/
 │   └── Financial_Rating.ipynb         # Credit Risk MLP
 └── README.md
 
+```
 
+<a name="medical-sector"></a>
 
-🏥 Medical Imaging Research
-High-precision diagnostics using Convolutional Neural Networks (CNNs) and Transfer Learning.
+## 🏥 Medical Imaging Research
 
-Project	Objective	Architecture	Status
-Brain Tumor Analysis	MRI Scan classification & Segmentation	Custom CNN / VGG-16	🟢 Done
-Pneumonia Detection	Chest X-Ray analysis for opacity	ResNet-50	🟢 Done
-Lung Cancer	Pulmonary nodule detection	3D CNN	🟡 In Progress
-Skin Lesion (HAM10000)	Dermatoscopic cancer classification	InceptionV3	🟢 Done
+*High-precision diagnostics using Convolutional Neural Networks (CNNs) and Transfer Learning.*
 
-Export to Sheets
+| Project | Objective | Architecture | Status |
+| --- | --- | --- | --- |
+| **Brain Tumor Analysis** | MRI Scan classification & Segmentation | `Custom CNN` / `VGG-16` | 🟢 Done |
+| **Pneumonia Detection** | Chest X-Ray analysis for opacity | `ResNet-50` | 🟢 Done |
+| **Lung Cancer** | Pulmonary nodule detection | `3D CNN` | 🟡 In Progress |
+| **Skin Lesion (HAM10000)** | Dermatoscopic cancer classification | `InceptionV3` | 🟢 Done |
 
-Note: Medical models leverage Data Augmentation (rotation, zoom, shear) to handle class imbalance.
+> **Note:** Medical models leverage **Data Augmentation** (rotation, zoom, shear) to handle class imbalance.
+
+---
 
 <a name="vision-sector"></a>
 
-👁️ Computer Vision Systems
-General-purpose visual recognition, feature extraction, and object detection.
+## 👁️ Computer Vision Systems
 
-Project	Description	Key Tech	Accuracy
-Expression Recognition	Real-time facial emotion mapping (Happy, Sad, Angry, etc.)	OpenCV Haar Cascades	78%
-Food & Vehicle Class.	Large-scale multi-category object recognition	EfficientNet	92%
-MNIST Digit	Handwriting recognition engine	LeNet-5 Variant	99.2%
-CIFAR-10	Baseline object detection benchmark	Sequential CNN	85%
+*General-purpose visual recognition, feature extraction, and object detection.*
 
-Export to Sheets
+| Project | Description | Key Tech | Accuracy |
+| --- | --- | --- | --- |
+| **Expression Recognition** | Real-time facial emotion mapping (Happy, Sad, Angry, etc.) | `OpenCV` `Haar Cascades` | 78% |
+| **Food & Vehicle Class.** | Large-scale multi-category object recognition | `EfficientNet` | 92% |
+| **MNIST Digit** | Handwriting recognition engine | `LeNet-5 Variant` | **99.2%** |
+| **CIFAR-10** | Baseline object detection benchmark | `Sequential CNN` | 85% |
+
+---
 
 <a name="finance-sector"></a>
 
-📊 Financial Analytics
-Deep Learning applied to non-visual tabular datasets.
+## 📊 Financial Analytics
 
-💳 Financial Rating Predictor
+*Deep Learning applied to non-visual tabular datasets.*
+
+#### 💳 Financial Rating Predictor
+
 An Artificial Neural Network (ANN) approach to corporate credit scoring and risk assessment.
 
-Input: Financial ratios (Liquidity, Profitability, Leverage).
+* **Input:** Financial ratios (Liquidity, Profitability, Leverage).
+* **Model:** Multi-Layer Perceptron (MLP).
+* **Optimizer:** Adam with Dynamic Learning Rate Decay.
+* **Loss Function:** Binary Cross-Entropy.
 
-Model: Multi-Layer Perceptron (MLP).
-
-Optimizer: Adam with Dynamic Learning Rate Decay.
-
-Loss Function: Binary Cross-Entropy.
+---
 
 <a name="technical-setup"></a>
 
-🛠️ Setup & Execution
-<details> <summary><b>💻 Local Installation (Click to Expand)</b></summary>
+## 🛠️ Setup & Execution
+
+<details>
+<summary><b>💻 Local Installation (Click to Expand)</b></summary>
 
 Prerequisites: Python 3.10+ and CUDA (if using GPU).
 
-Clone the Repository
-
-Bash
-
+1. **Clone the Repository**
+```bash
 git clone [https://github.com/vishva2410/Deep-Learning-Hub.git](https://github.com/vishva2410/Deep-Learning-Hub.git)
 cd Deep-Learning-Hub
-Install Dependencies
 
-Bash
+```
 
+
+2. **Install Dependencies**
+```bash
 pip install tensorflow-gpu opencv-python matplotlib pandas scikit-learn seaborn
-Launch Jupyter
 
-Bash
+```
 
+
+3. **Launch Jupyter**
+```bash
 jupyter notebook
-</details>
 
-<details> <summary><b>☁️ Google Colab Setup (Click to Expand)</b></summary>
+```
 
-Upload the .ipynb file to your Google Drive.
 
-Open with Google Colab.
-
-Change Runtime Type: Runtime -> Change runtime type -> T4 GPU.
 
 </details>
 
-<div align="center"> <h3>👤 Lead Developer</h3> <p><b>Vishva</b></p> <p> <a href="https://www.google.com/search?q=https://github.com/vishva2410"> <img src="https://www.google.com/search?q=https://img.shields.io/badge/GitHub-Profile-black%3Fstyle%3Dfor-the-badge%26logo%3Dgithub" /> </a> <a href="https://www.google.com/search?q=https://linkedin.com/in/vishva-teja-guduguntla"> <img src="https://www.google.com/search?q=https://img.shields.io/badge/LinkedIn-Connect-blue%3Fstyle%3Dfor-the-badge%26logo%3Dlinkedin" /> </a> </p> <p><i>Building the future of AI, one epoch at a time.</i></p> </div>
+<details>
+<summary><b>☁️ Google Colab Setup (Click to Expand)</b></summary>
 
+1. Upload the `.ipynb` file to your Google Drive.
+2. Open with Google Colab.
+3. Change Runtime Type: **Runtime -> Change runtime type -> T4 GPU**.
 
------
+</details>
 
-### Suggested Visual Additions
+---
 
-To make the "Medical Imaging" and "Computer Vision" sections even clearer, consider adding architecture diagrams.
+<div align="center">
+<h3>👤 Lead Developer</h3>
+<p><b>Vishva</b></p>
+<p>
+<a href="https://www.google.com/search?q=https://github.com/vishva2410">
+<img src="https://www.google.com/search?q=https://img.shields.io/badge/GitHub-Profile-black%3Fstyle%3Dfor-the-badge%26logo%3Dgithub" />
+</a>
+<a href="https://www.google.com/search?q=https://linkedin.com/in/vishva-teja-guduguntla">
+<img src="https://www.google.com/search?q=https://img.shields.io/badge/LinkedIn-Connect-blue%3Fstyle%3Dfor-the-badge%26logo%3Dlinkedin" />
+</a>
+</p>
+<p><i>Building the future of AI, one epoch at a time.</i></p>
+</div>
 
-[Image of CNN architecture diagram]
+```
 
-You can link these diagrams in the `Architecture` columns of your tables or place them right below the section headers to visually explain the "Simple" vs "Complex" models mentioned in your features.
-
-### Next Step
-
-Would you like me to generate a specific `requirements.txt` file content to match these notebooks, or help you generate a citation file (`CITATION.cff`) for this research hub?
+```
