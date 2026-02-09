@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>🚀 Deep Learning Project Hub</h1>
+  <h1> Deep Learning Project Hub</h1>
   <p><b>Advanced Neural Architectures & Research</b></p>
 
   <br/>
@@ -24,29 +24,29 @@
 
 ---
 
-## 🚀 Distinction & Features
+## Distinction & Features
 
 This repository serves as a centralized hub for advanced deep learning implementations, moving beyond basic tutorials into research-grade architectures.
 
-* **⚡ Multi-Scale Architectures:** Implementation of both lightweight (MobileNet-style) and complex (ResNet/Inception) models for performance benchmarking.
-* **🧬 Integrated Pipelines:** Notebooks contain end-to-end logic: `Data Augmentation` ➡️ `Normalization` ➡️ `Training` ➡️ `Evaluation`.
-* **🧠 Transfer Learning:** Utilizes pre-trained ImageNet weights for high-precision medical diagnostics.
-* **☁️ Cloud Native:** Optimized for **Google Colab** (TPU/GPU) and **Kaggle Kernels**.
+* ** Multi-Scale Architectures:** Implementation of both lightweight (MobileNet-style) and complex (ResNet/Inception) models for performance benchmarking.
+* ** Integrated Pipelines:** Notebooks contain end-to-end logic: `Data Augmentation` ➡️ `Normalization` ➡️ `Training` ➡️ `Evaluation`.
+* ** Transfer Learning:** Utilizes pre-trained ImageNet weights for high-precision medical diagnostics.
+* ** Cloud Native:** Optimized for **Google Colab** (TPU/GPU) and **Kaggle Kernels**.
 
 ---
 
-## 📂 Repository Structure
+##  Repository Structure
 
 ```text
 Deep-Learning-Hub/
-├── 🏥 Medical_Imaging/
+├──  Medical_Imaging/
 │   ├── Brain_tumor_complex.ipynb      # MRI Segmentation & Classification
 │   ├── chest_xray_pneumonia.ipynb     # Binary Classification (Pneumonia/Normal)
 │   └── skin_cancer_ham10000.ipynb     # Multi-class Lesion Detection
-├── 👁️ Computer_Vision/
+├──  Computer_Vision/
 │   ├── Expression_Recognition.ipynb   # FER-2013 Implementation
 │   └── Digit_Prediction_MNIST.ipynb   # Optimized CNN
-├── 📊 Finance/
+├──  Finance/
 │   └── Financial_Rating.ipynb         # Credit Risk MLP
 └── README.md
 
@@ -54,16 +54,16 @@ Deep-Learning-Hub/
 
 <a name="medical-sector"></a>
 
-## 🏥 Medical Imaging Research
+##  Medical Imaging Research
 
 *High-precision diagnostics using Convolutional Neural Networks (CNNs) and Transfer Learning.*
 
 | Project | Objective | Architecture | Status |
 | --- | --- | --- | --- |
-| **Brain Tumor Analysis** | MRI Scan classification & Segmentation | `Custom CNN` / `VGG-16` | 🟢 Done |
-| **Pneumonia Detection** | Chest X-Ray analysis for opacity | `ResNet-50` | 🟢 Done |
-| **Lung Cancer** | Pulmonary nodule detection | `3D CNN` | 🟡 In Progress |
-| **Skin Lesion (HAM10000)** | Dermatoscopic cancer classification | `InceptionV3` | 🟢 Done |
+| **Brain Tumor Analysis** | MRI Scan classification & Segmentation | `Custom CNN` / `VGG-16` |  Done |
+| **Pneumonia Detection** | Chest X-Ray analysis for opacity | `ResNet-50` |  Done |
+| **Lung Cancer** | Pulmonary nodule detection | `3D CNN` |  In Progress |
+| **Skin Lesion (HAM10000)** | Dermatoscopic cancer classification | `InceptionV3` |  Done |
 
 > **Note:** Medical models leverage **Data Augmentation** (rotation, zoom, shear) to handle class imbalance.
 
@@ -86,11 +86,11 @@ Deep-Learning-Hub/
 
 <a name="finance-sector"></a>
 
-## 📊 Financial Analytics
+##  Financial Analytics
 
 *Deep Learning applied to non-visual tabular datasets.*
 
-#### 💳 Financial Rating Predictor
+####  Financial Rating Predictor
 
 An Artificial Neural Network (ANN) approach to corporate credit scoring and risk assessment.
 
@@ -103,10 +103,10 @@ An Artificial Neural Network (ANN) approach to corporate credit scoring and risk
 
 <a name="technical-setup"></a>
 
-## 🛠️ Setup & Execution
+##  Setup & Execution
 
 <details>
-<summary><b>💻 Local Installation (Click to Expand)</b></summary>
+<summary><b> Local Installation (Click to Expand)</b></summary>
 
 Prerequisites: Python 3.10+ and CUDA (if using GPU).
 
@@ -136,7 +136,7 @@ jupyter notebook
 </details>
 
 <details>
-<summary><b>☁️ Google Colab Setup (Click to Expand)</b></summary>
+<summary><b> Google Colab Setup (Click to Expand)</b></summary>
 
 1. Upload the `.ipynb` file to your Google Drive.
 2. Open with Google Colab.
